@@ -1,0 +1,439 @@
+ctags address.c build_support.c date.c decimal.c dist.c driver.c error_msg.c expr.c genrand.c grammar_support.c join.c list.c load.c misc.c nulls.c parallel.c permute.c pricing.c print.c r_params.c StringBuffer.c tdef_functions.c tdefs.c text.c scd.c scaling.c release.c scd.c sparse.c porting.c validate.c dcgram.c dcomp.c grammar.c  s_brand.c s_customer_address.c scaling.c s_call_center.c s_catalog.c s_catalog_order.c s_catalog_order_lineitem.c s_catalog_page.c s_catalog_promotional_item.c s_catalog_returns.c s_category.c s_class.c s_company.c s_customer.c s_division.c s_inventory.c s_item.c s_manager.c s_manufacturer.c s_market.c s_pline.c s_product.c s_promotion.c s_purchase.c s_reason.c s_store.c s_store_promotional_item.c s_store_returns.c s_subcategory.c s_subclass.c s_warehouse.c s_web_order.c s_web_order_lineitem.c s_web_page.c s_web_promotinal_item.c s_web_returns.c s_web_site.c s_zip_to_gmt.c w_call_center.c w_catalog_page.c w_catalog_returns.c w_catalog_sales.c w_customer_address.c w_customer.c w_customer_demographics.c w_datetbl.c w_household_demographics.c w_income_band.c w_inventory.c w_item.c w_promotion.c w_reason.c w_ship_mode.c w_store.c w_store_returns.c w_store_sales.c w_timetbl.c w_warehouse.c w_web_page.c w_web_returns.c w_web_sales.c w_web_site.c dbgen_version.c tokenizer.l substitution.c QgenMain.c qgen.y query_handler.c eval.c keywords.c mkheader.c checksum.c 2> /dev/null
+date > .ctags_updated
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o mkheader.o mkheader.c
+mkheader.c:74:6: warning: variable 'nLineNumber' set but not used [-Wunused-but-set-variable]
+   74 |         int nLineNumber = 0,
+      |             ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall  -o mkheader mkheader.o -lm
+./mkheader column_list.txt
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_brand.o s_brand.c
+s_brand.c:142:22: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  142 |         struct S_BRAND_TBL *r;
+      |                             ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_customer_address.o s_customer_address.c
+s_customer_address.c:115:33: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  115 |         struct W_CUSTOMER_ADDRESS_TBL *r;
+      |                                        ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_call_center.o s_call_center.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_catalog.o s_catalog.c
+s_catalog.c:147:24: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  147 |         struct S_CATALOG_TBL *r;
+      |                               ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_catalog_order.o s_catalog_order.c
+s_catalog_order.c:200:30: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  200 |         struct S_CATALOG_ORDER_TBL *r;
+      |                                     ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_catalog_order_lineitem.o s_catalog_order_lineitem.c
+s_catalog_order_lineitem.c:188:39: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  188 |         struct S_CATALOG_ORDER_LINEITEM_TBL *r;
+      |                                              ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_catalog_page.o s_catalog_page.c
+s_catalog_page.c:117:27: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  117 |         struct CATALOG_PAGE_TBL *r;
+      |                                  ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_catalog_promotional_item.o s_catalog_promotional_item.c
+s_catalog_promotional_item.c:137:41: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  137 |         struct S_CATALOG_PROMOTIONAL_ITEM_TBL *r;
+      |                                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_catalog_returns.o s_catalog_returns.c
+s_catalog_returns.c:174:32: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  174 |         struct S_CATALOG_RETURNS_TBL *r;
+      |                                       ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_category.o s_category.c
+s_category.c:137:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  137 |         struct S_CATEGORY_TBL *r;
+      |                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_class.o s_class.c
+s_class.c:140:22: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  140 |         struct S_CLASS_TBL *r;
+      |                             ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_company.o s_company.c
+s_company.c:136:24: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  136 |         struct S_COMPANY_TBL *r;
+      |                               ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_customer.o s_customer.c
+s_customer.c:272:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  272 |   struct S_CUSTOMER_TBL *r;
+      |                          ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_division.o s_division.c
+s_division.c:138:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  138 |         struct S_DIVISION_TBL *r;
+      |                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_inventory.o s_inventory.c
+s_inventory.c:158:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  158 |         struct S_INVENTORY_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_item.o s_item.c
+s_item.c:148:21: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  148 |         struct W_ITEM_TBL *r;
+      |                            ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_manager.o s_manager.c
+s_manager.c:140:24: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  140 |         struct S_MANAGER_TBL *r;
+      |                               ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_manufacturer.o s_manufacturer.c
+s_manufacturer.c:136:29: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  136 |         struct S_MANUFACTURER_TBL *r;
+      |                                    ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_market.o s_market.c
+s_market.c:141:23: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  141 |         struct S_MARKET_TBL *r;
+      |                              ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_pline.o s_pline.c
+s_pline.c:177:34: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  177 |         struct S_PURCHASE_LINEITEM_TBL *r;
+      |                                         ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_product.o s_product.c
+s_product.c:141:24: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  141 |         struct S_PRODUCT_TBL *r;
+      |                               ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_promotion.o s_promotion.c
+s_promotion.c:157:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  157 |         struct W_PROMOTION_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_purchase.o s_purchase.c
+s_purchase.c:194:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  194 |         struct S_PURCHASE_TBL *r;
+      |                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_reason.o s_reason.c
+s_reason.c:137:23: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  137 |         struct S_REASON_TBL *r;
+      |                              ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_store.o s_store.c
+s_store.c:146:22: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  146 |         struct W_STORE_TBL *r;
+      |                             ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_store_promotional_item.o s_store_promotional_item.c
+s_store_promotional_item.c:138:39: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  138 |         struct S_STORE_PROMOTIONAL_ITEM_TBL *r;
+      |                                              ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_store_returns.o s_store_returns.c
+s_store_returns.c:167:30: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  167 |         struct S_STORE_RETURNS_TBL *r;
+      |                                     ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_subcategory.o s_subcategory.c
+s_subcategory.c:141:28: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  141 |         struct S_SUBCATEGORY_TBL *r;
+      |                                   ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_subclass.o s_subclass.c
+s_subclass.c:141:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  141 |         struct S_SUBCLASS_TBL *r;
+      |                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_warehouse.o s_warehouse.c
+s_warehouse.c:136:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  136 |         struct W_WAREHOUSE_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_web_order.o s_web_order.c
+s_web_order.c:206:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  206 |         struct S_WEB_ORDER_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_web_order_lineitem.o s_web_order_lineitem.c
+s_web_order_lineitem.c:185:35: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  185 |         struct S_WEB_ORDER_LINEITEM_TBL *r;
+      |                                          ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_web_page.o s_web_page.c
+s_web_page.c:146:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  146 |         struct W_WEB_PAGE_TBL *r;
+      |                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_web_promotinal_item.o s_web_promotinal_item.c
+s_web_promotinal_item.c:140:37: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  140 |         struct S_WEB_PROMOTIONAL_ITEM_TBL *r;
+      |                                            ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_web_returns.o s_web_returns.c
+s_web_returns.c:179:28: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  179 |         struct S_WEB_RETURNS_TBL *r;
+      |                                   ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_web_site.o s_web_site.c
+s_web_site.c:142:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  142 |         struct W_WEB_SITE_TBL *r;
+      |                                ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o s_zip_to_gmt.o s_zip_to_gmt.c
+s_zip_to_gmt.c:207:24: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  207 |         struct S_ZIP_GMT_TBL *r;
+      |                               ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_call_center.o w_call_center.c
+w_call_center.c:88:3: warning: variable 'nDaysPerRevision' set but not used [-Wunused-but-set-variable]
+   88 |                 nDaysPerRevision;
+      |                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_catalog_page.o w_catalog_page.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_catalog_returns.o w_catalog_returns.c
+w_catalog_returns.c:242:32: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  242 |         struct W_CATALOG_RETURNS_TBL *r;
+      |                                       ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_catalog_sales.o w_catalog_sales.c
+w_catalog_sales.c:167:18: warning: variable 'jDate' set but not used [-Wunused-but-set-variable]
+  167 |         static ds_key_t jDate;
+      |                         ^
+w_catalog_sales.c:358:30: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  358 |         struct W_CATALOG_SALES_TBL *r;
+      |                                     ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_customer_address.o w_customer_address.c
+w_customer_address.c:148:33: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  148 |         struct W_CUSTOMER_ADDRESS_TBL *r;
+      |                                        ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_customer.o w_customer.c
+w_customer.c:72:13: warning: variable 'nBaseDate' set but not used [-Wunused-but-set-variable]
+   72 |         static int nBaseDate;
+      |                    ^
+w_customer.c:208:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  208 |         struct W_CUSTOMER_TBL *r;
+      |                                ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_customer_demographics.o w_customer_demographics.c
+w_customer_demographics.c:147:38: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  147 |         struct W_CUSTOMER_DEMOGRAPHICS_TBL *r;
+      |                                             ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_datetbl.o w_datetbl.c
+w_datetbl.c:226:21: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  226 |         struct W_DATE_TBL *r;
+      |                            ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_household_demographics.o w_household_demographics.c
+w_household_demographics.c:144:39: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  144 |         struct W_HOUSEHOLD_DEMOGRAPHICS_TBL *r;
+      |                                              ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_income_band.o w_income_band.c
+w_income_band.c:130:28: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  130 |         struct W_INCOME_BAND_TBL *r;
+      |                                   ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_inventory.o w_inventory.c
+w_inventory.c:169:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  169 |         struct W_INVENTORY_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_item.o w_item.c
+w_item.c:294:21: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  294 |         struct W_ITEM_TBL *r;
+      |                            ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_promotion.o w_promotion.c
+w_promotion.c:76:11: warning: variable 'nTemp' set but not used [-Wunused-but-set-variable]
+   76 |         ds_key_t nTemp;
+      |                  ^
+w_promotion.c:206:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  206 |         struct W_PROMOTION_TBL *r;
+      |                                 ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_reason.o w_reason.c
+w_reason.c:132:23: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  132 |         struct W_REASON_TBL *r;
+      |                              ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_ship_mode.o w_ship_mode.c
+w_ship_mode.c:150:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  150 |         struct W_SHIP_MODE_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_store.o w_store.c
+w_store.c:78:10: warning: variable 'nHierarchyTotal' set but not used [-Wunused-but-set-variable]
+   78 |         int32_t nHierarchyTotal,
+      |                 ^
+w_store.c:301:22: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  301 |         struct W_STORE_TBL *r;
+      |                             ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_store_returns.o w_store_returns.c
+w_store_returns.c:196:30: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  196 |         struct W_STORE_RETURNS_TBL *r;
+      |                                     ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_store_sales.o w_store_sales.c
+w_store_sales.c:75:3: warning: variable 'nMaxItemCount' set but not used [-Wunused-but-set-variable]
+   75 |                 nMaxItemCount;
+      |                 ^
+w_store_sales.c:226:28: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  226 |         struct W_STORE_SALES_TBL *r;
+      |                                   ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_timetbl.o w_timetbl.c
+w_timetbl.c:147:21: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  147 |         struct W_TIME_TBL *r;
+      |                            ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_warehouse.o w_warehouse.c
+w_warehouse.c:157:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  157 |         struct W_WAREHOUSE_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_web_page.o w_web_page.c
+w_web_page.c:86:3: warning: variable 'nRevisions' set but not used [-Wunused-but-set-variable]
+   86 |                 nRevisions;
+      |                 ^
+w_web_page.c:241:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  241 |         struct W_WEB_PAGE_TBL *r;
+      |                                ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_web_returns.o w_web_returns.c
+w_web_returns.c:217:28: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  217 |         struct W_WEB_RETURNS_TBL *r;
+      |                                   ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_web_sales.o w_web_sales.c
+w_web_sales.c:315:26: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  315 |         struct W_WEB_SALES_TBL *r;
+      |                                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o w_web_site.o w_web_site.c
+w_web_site.c:82:17: warning: variable 'dToday' set but not used [-Wunused-but-set-variable]
+   82 |         static date_t *dToday;
+      |                        ^
+w_web_site.c:266:25: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  266 |         struct W_WEB_SITE_TBL *r;
+      |                                ^
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o dbgen_version.o dbgen_version.c
+dbgen_version.c:147:28: warning: variable 'r' set but not used [-Wunused-but-set-variable]
+  147 |         struct DBGEN_VERSION_TBL *r;
+      |                                   ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o address.o address.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o build_support.o build_support.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o date.o date.c
+date.c:566:1: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+  566 | getDateWeightFromJulian(jDay, nDistribution)
+      | ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o decimal.o decimal.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o dist.o dist.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o dcgram.o dcgram.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o dcomp.o dcomp.c
+dcomp.c:257:6: warning: variable 'nArgs' set but not used [-Wunused-but-set-variable]
+  257 |         int nArgs,
+      |             ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o grammar.o grammar.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o error_msg.o error_msg.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o StringBuffer.o StringBuffer.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o r_params.o r_params.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall  -o distcomp dcgram.o dcomp.o grammar.o error_msg.o StringBuffer.o r_params.o  -lm
+./distcomp -i tpcds.dst -o tpcds.idx
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o driver.o driver.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o genrand.o genrand.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o join.o join.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o list.o list.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o load.o load.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o misc.o misc.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o nulls.o nulls.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o parallel.o parallel.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o permute.o permute.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o pricing.o pricing.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o print.o print.c
+print.c:204:27: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+  204 |            fprintf(fpDeleteFile, get_str("DELIMITER"));
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+print.c:204:27: note: treat the string as an argument to avoid this
+  204 |            fprintf(fpDeleteFile, get_str("DELIMITER"));
+      |                                  ^
+      |                                  "%s", 
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o tdef_functions.o tdef_functions.c
+tdef_functions.c:174:1: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+  174 | getTdefFunctionsByNumber(nTable)
+      | ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o tdefs.o tdefs.c
+tdefs.c:150:1: warning: a function definition without a prototype is deprecated in all versions of C and is not supported in C23 [-Wdeprecated-non-prototype]
+  150 | getSimpleTdefsByNumber(nTable)
+      | ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o text.o text.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o scd.o scd.c
+scd.c:167:3: warning: variable 'jH1DataDate' set but not used [-Wunused-but-set-variable]
+  167 |                 jH1DataDate,
+      |                 ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o scaling.o scaling.c
+scaling.c:345:13: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+  345 |         if ((table == INVENTORY))
+      |              ~~~~~~^~~~~~~~~~~~
+scaling.c:345:13: note: remove extraneous parentheses around the comparison to silence this warning
+  345 |         if ((table == INVENTORY))
+      |             ~      ^           ~
+scaling.c:345:13: note: use '=' to turn this equality comparison into an assignment
+  345 |         if ((table == INVENTORY))
+      |                    ^~
+      |                    =
+scaling.c:347:13: warning: equality comparison with extraneous parentheses [-Wparentheses-equality]
+  347 |         if ((table == S_INVENTORY))
+      |              ~~~~~~^~~~~~~~~~~~~~
+scaling.c:347:13: note: remove extraneous parentheses around the comparison to silence this warning
+  347 |         if ((table == S_INVENTORY))
+      |             ~      ^             ~
+scaling.c:347:13: note: use '=' to turn this equality comparison into an assignment
+  347 |         if ((table == S_INVENTORY))
+      |                    ^~
+      |                    =
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o release.o release.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o sparse.o sparse.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o validate.o validate.c
+validate.c:67:10: warning: variable 'pChild' set but not used [-Wunused-but-set-variable]
+   67 |    tdef *pChild;
+      |          ^
+1 warning generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall  -o dsdgen s_brand.o s_customer_address.o s_call_center.o s_catalog.o s_catalog_order.o s_catalog_order_lineitem.o s_catalog_page.o s_catalog_promotional_item.o s_catalog_returns.o s_category.o s_class.o s_company.o s_customer.o s_division.o s_inventory.o s_item.o s_manager.o s_manufacturer.o s_market.o s_pline.o s_product.o s_promotion.o s_purchase.o s_reason.o s_store.o s_store_promotional_item.o s_store_returns.o s_subcategory.o s_subclass.o s_warehouse.o s_web_order.o s_web_order_lineitem.o s_web_page.o s_web_promotinal_item.o s_web_returns.o s_web_site.o s_zip_to_gmt.o w_call_center.o w_catalog_page.o w_catalog_returns.o w_catalog_sales.o w_customer_address.o w_customer.o w_customer_demographics.o w_datetbl.o w_household_demographics.o w_income_band.o w_inventory.o w_item.o w_promotion.o w_reason.o w_ship_mode.o w_store.o w_store_returns.o w_store_sales.o w_timetbl.o w_warehouse.o w_web_page.o w_web_returns.o w_web_sales.o w_web_site.o dbgen_version.o address.o build_support.o date.o decimal.o dist.o driver.o error_msg.o genrand.o join.o list.o load.o misc.o nulls.o parallel.o permute.o pricing.o print.o r_params.o StringBuffer.o tdef_functions.o tdefs.o text.o scd.o scaling.o release.o sparse.o validate.o -lm
+yacc -d -v qgen.y
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o expr.o expr.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o eval.o eval.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o grammar_support.o grammar_support.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o keywords.o keywords.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o QgenMain.o QgenMain.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o query_handler.o query_handler.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o substitution.o substitution.c
+lex  -t tokenizer.l > tokenizer.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o tokenizer.o tokenizer.c
+<stdout>:1363:17: warning: unused function 'yyunput' [-Wunused-function]
+ 1363 |     static void yyunput (int c, char * yy_bp )
+      |                 ^~~~~~~
+<stdout>:1406:16: warning: function 'input' is not needed and will not be emitted [-Wunneeded-internal-declaration]
+ 1406 |     static int input  (void)
+      |                ^~~~~
+2 warnings generated.
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o y.tab.o y.tab.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall  -o dsqgen address.o date.o decimal.o dist.o error_msg.o expr.o eval.o genrand.o grammar_support.o keywords.o list.o nulls.o permute.o print.o QgenMain.o query_handler.o r_params.o scaling.o StringBuffer.o substitution.o tdefs.o text.o tokenizer.o w_inventory.o y.tab.o release.o scd.o build_support.o parallel.o  -lm
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall   -c -o checksum.o checksum.c
+gcc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG  -DMACOS -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -DYYDEBUG -DMACOS -std=gnu89 -g -Wall  -o checksum checksum.o -lm

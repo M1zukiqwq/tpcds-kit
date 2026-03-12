@@ -1,26 +1,12 @@
-# Prerequisites
-*.d
+# OS X
+.DS_Store
 
 # Object files
 *.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Libraries
 *.lib
 *.a
-*.la
-*.lo
 
 # Shared objects (inc. Windows DLLs)
 *.dll
@@ -32,24 +18,24 @@
 *.exe
 *.out
 *.app
-*.i*86
-*.x86_64
-*.hex
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# Generated files
+tables.h
+streams.h
+mkheader
+columns.h
+tpcds.idx.h
+tpcds.idx
+distcomp
+y.tab.h
+y.tab.c
+y.output
+tokenizer.c
+dsqgen
+dsdgen
+checksum
+.ctags_updated
+tags
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# Flat files
+*.dat
